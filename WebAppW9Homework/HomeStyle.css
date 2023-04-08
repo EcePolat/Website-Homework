@@ -1,0 +1,214 @@
+﻿body {
+    background-color: white;
+    color: white;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 12px;
+    color: hotpink;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 30px;
+    color: hotpink;
+}
+
+h3 {
+    font-size: 15px;
+    color: blue;
+    font-style: italic;
+}
+
+#title {
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 0.3em;
+    word-spacing: 0.2em;
+    background-color: cornflowerblue;
+}
+
+#banner {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    width: 800px;
+}
+
+#navBar {
+    width: 800px;
+    font: 14px verdana;
+}
+
+#content {
+    width: 800px;
+    color: black;
+}
+
+#leftArea {
+    border-radius: 10px 25px 10px 25px;
+    transform: rotate(-2deg);
+    margin-left: 10px;
+    padding: 25px;
+    float: left;
+    height: 350px;
+    width: 280px;
+    background-color: yellowgreen;
+}
+
+#rightArea {
+    border-radius: 10px 25px 10px 25px;
+    transform: rotate(2deg);
+    color: black;
+    padding: 10px 10px 10px 10px;
+    height: 400px;
+    width: 440px;
+    float: left;
+    background-color: mediumpurple;
+}
+
+#footer {
+    clear: both;
+    background-color: orange;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+    padding: 0px 15px 0px 0px;
+    border-style: solid;
+}
+
+#navBar li a {
+    display: block;
+    width: 125px;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+    #navBar li a:hover {
+        background-color: none;
+        color: hotpink;
+    }
+
+#navBar ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.wrapingimage {
+    float: left;
+    margin: 95px 12px 3px 5px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 375px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+a:link {
+    border-color: blue;
+    border-radius: 50px;
+}
+
+a:visited {
+    border-style: dotted;
+    border-color: deeppink;
+}
+
+a:hover {
+    border-style: dotted;
+    border-color: gray;
+    color: gray;
+}
+
+a:active {
+    border-style: dotted;
+    color: blue;
+}
+
+#MyTable {
+    width: 100%;
+    margin: 5% 30% 0 30%;
+    color: white;
+}
+
+    #MyTable table {
+        padding: 40px;
+        background-color: #c23d7fac;
+        width: 40%;
+        table-layout: fixed;
+        text-align: right;
+    }
+
+    #MyTable td:nth-child(odd) {
+        text-align: right;
+    }
+
+    #MyTable td:nth-child(even) {
+        text-align: left;
+    }
+
+    #MyTable td[colspan="2"] {
+        text-align: center;
+    }
+
+#Loginform {
+    width: 100%;
+    margin: 5% 30% 0 30%;
+    color: white;
+}
+
+    #Loginform div table {
+        padding: 40px;
+        background-color: #c23d7fac;
+        width: 40%;
+        table-layout: fixed;
+        text-align: right;
+    }
+
+    #Loginform td:nth-child(odd) {
+        text-align: right;
+    }
+
+    #Loginform td:nth-child(even) {
+        text-align: left;
+    }
+
+    #Loginform td[colspan="2"] {
+        text-align: center;
+    }
